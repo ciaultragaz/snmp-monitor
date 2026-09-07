@@ -1,52 +1,6 @@
-# SNMP Dependencies
-pysnmp>=5.0.0
-pysnmp-lextudio>=6.0.0
-
-# Web Framework
-fastapi>=0.104.0
-uvicorn[standard]>=0.24.0
-
-# CLI
-typer[all]>=0.9.0
-
-# Database
-sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.0
-alembic>=1.12.0
-
-# Task Scheduling
-apscheduler>=3.10.0
-
-# Data Validation
-pydantic>=2.0.0
-pydantic-settings>=2.0.0
-
-# Configuration
-pyyaml>=6.0
-python-dotenv>=1.0.0
-
-# Async
-aiosnmp>=0.3.0
-httpx>=0.25.0
-
-# Logging
-python-json-logger>=2.0.0
-
-# Testing
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
-pytest-cov>=4.1.0
-
-# Code Quality
-black>=23.0.0
-flake8>=6.1.0
-isort>=5.12.0
-mypy>=1.6.0
-
-# Documentation
-mkdocs>=1.5.0
-mkdocs-material>=9.4.0
-
-# Development
-ipython>=8.16.0
-ipdb>=0.13.0
+# Dependências canônicas: pyproject.toml
+# pip install -e ".[dev]"
+pysnmp>=7.1,<8
+typer>=0.12
+pytest>=8
+pytest-asyncio>=0.24
